@@ -50,7 +50,7 @@
 
     <!-- Блок 1 -->
     <div class="text-center mb-4">
-      <img src="path_to_your_logo_image" alt="KINO MIR" class="mb-3"> <!-- Замените 'path_to_your_logo_image' на путь к вашему логотипу -->
+      <img src="/images/IMG_1256.PNG" alt="KINO MIR" class="mb-3"> <!-- Замените 'path_to_your_logo_image' на путь к вашему логотипу -->
       <h2>ЛУЧШАЯ ВОЗМОЖНОСТЬ ПРОВЕСТИ ПРИЯТНО ВЕЧЕР В КРУГУ ЛЮБИМЫХ</h2>
       <p>Уютный вечер с друзьями или второй половинкой в приятной обстановке</p>
     </div>
@@ -95,11 +95,31 @@
         <h2 class="text-center mb-4">Для двоих</h2>
         <!-- Тариф "Возлюбленные" -->
         <div class="mb-4">
-            <!-- Слайдер -->
-            <!-- Замените # с ID вашего слайдера -->
             <div id="sliderLovers" class="carousel slide" data-bs-ride="carousel">
-                <!-- Здесь будут изображения для слайдера -->
+                <!-- Индикаторы для слайдера -->
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#sliderLovers" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#sliderLovers" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#sliderLovers" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#sliderLovers" data-bs-slide-to="3"></li>
+                </ol>
+                <!-- Сами изображения для слайдера -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/IMG_1290.JPG" class="d-block w-100" alt="Image description 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1291.JPG" class="d-block w-100" alt="Image description 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1292.JPG" class="d-block w-100" alt="Image description 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1293.JPG" class="d-block w-100" alt="Image description 4">
+                    </div>
+                </div>
             </div>
+            <h4>Возлюбленные</h4>
             <p>Описание тарифа: выбор фильма, безлимитные печеньки и напитки, большой поп-корн, свечи, лепестки роз.</p>
             <p>Информация о тарифе: 3 часа, 14900₸.</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Возлюбленные" data-duration="4">
@@ -108,11 +128,27 @@
         </div>
         <!-- Тариф "Сладкоежки" -->
         <div class="mb-4">
-            <!-- Слайдер -->
-            <!-- Замените # с ID вашего слайдера -->
-            <div id="sliderLovers" class="carousel slide" data-bs-ride="carousel">
-                <!-- Здесь будут изображения для слайдера -->
+            <div id="sliderSweet" class="carousel slide" data-bs-ride="carousel">
+                <!-- Индикаторы для слайдера -->
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#sliderSweet" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#sliderSweet" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#sliderSweet" data-bs-slide-to="2"></li>
+                </ol>
+                <!-- Сами изображения для слайдера -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/IMG_1258.JPG" class="d-block w-100" alt="Image description 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1259.JPG" class="d-block w-100" alt="Image description 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1260.JPG" class="d-block w-100" alt="Image description 3">
+                    </div>
+                </div>
             </div>
+            <h4>Сладкоежки</h4>
             <p>Описание тарифа: выбор фильма, безлимитные печеньки и напитки, большой поп-корн, торт, свечи, лепестки роз.</p>
             <p>Информация о тарифе: 4 часа, 18900₸.</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Сладкоежки" data-duration="4">
@@ -121,11 +157,47 @@
         </div>
         <!-- Тариф "Вечное наслаждение" -->
         <div class="mb-4">
-            <!-- Слайдер -->
-            <!-- Замените # с ID вашего слайдера -->
-            <div id="sliderLovers" class="carousel slide" data-bs-ride="carousel">
-                <!-- Здесь будут изображения для слайдера -->
+            <div id="sliderEnjoyment" class="carousel slide" data-bs-ride="carousel">
+                <!-- Индикаторы для слайдера -->
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#sliderEnjoyment" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#sliderEnjoyment" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#sliderEnjoyment" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#sliderEnjoyment" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#sliderEnjoyment" data-bs-slide-to="4"></li>
+                    <li data-bs-target="#sliderEnjoyment" data-bs-slide-to="5"></li>
+                    <li data-bs-target="#sliderEnjoyment" data-bs-slide-to="6"></li>
+                    <li data-bs-target="#sliderEnjoyment" data-bs-slide-to="7"></li>
+                </ol>
+                <!-- Сами изображения для слайдера -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/IMG_1282.JPG" class="d-block w-100" alt="Image description 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1283.JPG" class="d-block w-100" alt="Image description 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1284.JPG" class="d-block w-100" alt="Image description 3">
+                    </div>
+                  <div class="carousel-item">
+                        <img src="/images/IMG_1286.JPG" class="d-block w-100" alt="Image description 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1287.JPG" class="d-block w-100" alt="Image description 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1285.JPG" class="d-block w-100" alt="Image description 6">
+                    </div>
+                  <div class="carousel-item">
+                        <img src="/images/IMG_1288.JPG" class="d-block w-100" alt="Image description 7">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1289.JPG" class="d-block w-100" alt="Image description 8">
+                    </div>
+                </div>
             </div>
+            <h4>Вечное наслаждение</h4>
             <p>Описание тарифа: выбор фильма, безлимитные печеньки и напитки, большой поп-корн, торт, свечи, лепестки роз, бутылка вина J.F. Arriezu, Verdejo.</p>
             <p>Информация о тарифе: 8 часа, 27900₸.</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Вечное наслаждение" data-duration="4">
@@ -172,16 +244,16 @@
                         <label class="form-check-label" for="hookah">Кальян (6000₸)</label>
                     </div>
                   <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="hookah" data-price="4300₸">
-                        <label class="form-check-label" for="hookah">Пицца (4300₸)</label>
+                        <input type="checkbox" class="form-check-input" id="pizza" data-price="4300₸">
+                        <label class="form-check-label" for="pizza">Пицца (4300₸)</label>
                     </div>
                     <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="hookah" data-price="3500₸">
-                        <label class="form-check-label" for="hookah">Клаб сэндвичи (3500₸)</label>
+                        <input type="checkbox" class="form-check-input" id="sandwich" data-price="3500₸">
+                        <label class="form-check-label" for="sandwich">Клаб сэндвичи (3500₸)</label>
                     </div>
                     <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="hookah" data-price="Бесплатно">
-                        <label class="form-check-label" for="hookah">Плед (Бесплатно)</label>
+                        <input type="checkbox" class="form-check-input" id="rug" data-price="Бесплатно">
+                        <label class="form-check-label" for="rug">Плед (Бесплатно)</label>
                     </div>
                     <!-- Аналогично добавьте другие дополнительные услуги -->
 
@@ -210,6 +282,50 @@
 
         <!-- Тариф "Семейный" -->
         <div class="mb-4">
+          <div id="sliderFamily" class="carousel slide" data-bs-ride="carousel">
+                <!-- Индикаторы для слайдера -->
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#sliderFamily" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#sliderFamily" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#sliderFamily" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#sliderFamily" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#sliderFamily" data-bs-slide-to="4"></li>
+                    <li data-bs-target="#sliderFamily" data-bs-slide-to="5"></li>
+                    <li data-bs-target="#sliderFamily" data-bs-slide-to="6"></li>
+                    <li data-bs-target="#sliderFamily" data-bs-slide-to="7"></li>
+                    <li data-bs-target="#sliderFamily" data-bs-slide-to="8"></li>
+                </ol>
+                <!-- Сами изображения для слайдера -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/IMG_1275.JPG" class="d-block w-100" alt="Image description 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1273.JPG" class="d-block w-100" alt="Image description 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1274.JPG" class="d-block w-100" alt="Image description 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1277.JPG" class="d-block w-100" alt="Image description 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1278.JPG" class="d-block w-100" alt="Image description 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1276.JPG" class="d-block w-100" alt="Image description 6">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1279.JPG" class="d-block w-100" alt="Image description 7">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1280.JPG" class="d-block w-100" alt="Image description 8">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1281.JPG" class="d-block w-100" alt="Image description 9">
+                    </div>
+                </div>
+            </div>
             <h4>Семейный</h4>
             <p>Описание тарифа: Караоке, предварительно подготовленный фильм на выбор, коллекция настольных игр, XBOX/PS5, безлимитные печеньки и горячие напитки в главном зале, пицца 40 см.</p>
             <p>Продолжительность: 4 часа | Цена: 24900₸ | Количество человек: до 10</p>
@@ -219,6 +335,38 @@
         </div>
       <!-- Дневной -->
         <div class="mb-4">
+          <div id="sliderDaytime" class="carousel slide" data-bs-ride="carousel">
+                <!-- Индикаторы для слайдера -->
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#sliderDaytime" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#sliderDaytime" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#sliderDaytime" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#sliderDaytime" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#sliderDaytime" data-bs-slide-to="4"></li>
+                    <li data-bs-target="#sliderDaytime" data-bs-slide-to="5"></li>
+                </ol>
+                <!-- Сами изображения для слайдера -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/IMG_1267.JPG" class="d-block w-100" alt="Image description 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1268.JPG" class="d-block w-100" alt="Image description 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1269.JPG" class="d-block w-100" alt="Image description 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1270.JPG" class="d-block w-100" alt="Image description 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1272.JPG" class="d-block w-100" alt="Image description 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1271.JPG" class="d-block w-100" alt="Image description 6">
+                    </div>
+                </div>
+            </div>
             <h4>Дневной</h4>
             <p>Описание тарифа: Караоке, предварительно подготовленный фильм на выбор, коллекция настольных игр, XBOX/PS5, безлимитные печеньки и горячие напитки в главном зале, пицца 40 см.</p>
             <p>Продолжительность: 6 часа | Цена: 29900₸ | Количество человек: до 20</p>
@@ -226,8 +374,40 @@
                 Забронировать
             </button>
         </div>
-        <!-- Дневной -->
+        <!-- Большой праздник -->
         <div class="mb-4">
+          <div id="sliderHoliday" class="carousel slide" data-bs-ride="carousel">
+                <!-- Индикаторы для слайдера -->
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#sliderHoliday" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#sliderHoliday" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#sliderHoliday" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#sliderHoliday" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#sliderHoliday" data-bs-slide-to="4"></li>
+                    <li data-bs-target="#sliderHoliday" data-bs-slide-to="5"></li>
+                </ol>
+                <!-- Сами изображения для слайдера -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/IMG_1262.JPG" class="d-block w-100" alt="Image description 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1263.JPG" class="d-block w-100" alt="Image description 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1261.JPG" class="d-block w-100" alt="Image description 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1264.JPG" class="d-block w-100" alt="Image description 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1265.JPG" class="d-block w-100" alt="Image description 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/IMG_1266.JPG" class="d-block w-100" alt="Image description 6">
+                    </div>
+                </div>
+            </div>
             <h4>Большой праздник</h4>
             <p>Описание тарифа: Караоке, предварительно подготовленный фильм на выбор, коллекция настольных игр, XBOX/PS5, безлимитные печеньки и горячие напитки в главном зале, 2 пиццы 40 см, праздничное оформление с шариками, торт с именем именинника.</p>
             <p>Продолжительность: 8 часа | Цена: 47900₸</p>
