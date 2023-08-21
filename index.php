@@ -115,7 +115,7 @@
                         <img src="/images/IMG_1292.JPG" class="d-block w-100" alt="Image description 3">
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/IMG_1293.JPG" class="d-block w-100" alt="Image description 4">
+                        <img src="/images/IMG_1293.jpg" class="d-block w-100" alt="Image description 4">
                     </div>
                 </div>
             </div>
