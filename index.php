@@ -101,7 +101,7 @@
                 <!-- Здесь будут изображения для слайдера -->
             </div>
             <p>Описание тарифа: выбор фильма, безлимитные печеньки и напитки, большой поп-корн, свечи, лепестки роз.</p>
-            <p>Информация о тарифе: 3 часа, 14900.</p>
+            <p>Информация о тарифе: 3 часа, 14900₸.</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Возлюбленные" data-duration="4">
                 Забронировать
             </button>
@@ -114,7 +114,7 @@
                 <!-- Здесь будут изображения для слайдера -->
             </div>
             <p>Описание тарифа: выбор фильма, безлимитные печеньки и напитки, большой поп-корн, торт, свечи, лепестки роз.</p>
-            <p>Информация о тарифе: 4 часа, 18900.</p>
+            <p>Информация о тарифе: 4 часа, 18900₸.</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Сладкоежки" data-duration="4">
                 Забронировать
             </button>
@@ -127,7 +127,7 @@
                 <!-- Здесь будут изображения для слайдера -->
             </div>
             <p>Описание тарифа: выбор фильма, безлимитные печеньки и напитки, большой поп-корн, торт, свечи, лепестки роз, бутылка вина J.F. Arriezu, Verdejo.</p>
-            <p>Информация о тарифе: 8 часа, 27900.</p>
+            <p>Информация о тарифе: 8 часа, 27900₸.</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Вечное наслаждение" data-duration="4">
                 Забронировать
             </button>
@@ -168,16 +168,16 @@
                     <!-- Дополнительные услуги -->
                     <h6>Дополнительные услуги:</h6>
                     <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="hookah" data-price="6000">
-                        <label class="form-check-label" for="hookah">Кальян (6000)</label>
+                        <input type="checkbox" class="form-check-input" id="hookah" data-price="6000₸">
+                        <label class="form-check-label" for="hookah">Кальян (6000₸)</label>
                     </div>
                   <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="hookah" data-price="4300">
-                        <label class="form-check-label" for="hookah">Пицца (4300)</label>
+                        <input type="checkbox" class="form-check-input" id="hookah" data-price="4300₸">
+                        <label class="form-check-label" for="hookah">Пицца (4300₸)</label>
                     </div>
                     <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="hookah" data-price="3500">
-                        <label class="form-check-label" for="hookah">Клаб сэндвичи (3500)</label>
+                        <input type="checkbox" class="form-check-input" id="hookah" data-price="3500₸">
+                        <label class="form-check-label" for="hookah">Клаб сэндвичи (3500₸)</label>
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="hookah" data-price="Бесплатно">
@@ -212,7 +212,7 @@
         <div class="mb-4">
             <h4>Семейный</h4>
             <p>Описание тарифа: Караоке, предварительно подготовленный фильм на выбор, коллекция настольных игр, XBOX/PS5, безлимитные печеньки и горячие напитки в главном зале, пицца 40 см.</p>
-            <p>Продолжительность: 4 часа | Цена: 24900 | Количество человек: до 10</p>
+            <p>Продолжительность: 4 часа | Цена: 24900₸ | Количество человек: до 10</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Семейный" data-duration="4">
                 Забронировать
             </button>
@@ -221,7 +221,7 @@
         <div class="mb-4">
             <h4>Дневной</h4>
             <p>Описание тарифа: Караоке, предварительно подготовленный фильм на выбор, коллекция настольных игр, XBOX/PS5, безлимитные печеньки и горячие напитки в главном зале, пицца 40 см.</p>
-            <p>Продолжительность: 6 часа | Цена: 29900 | Количество человек: до 20</p>
+            <p>Продолжительность: 6 часа | Цена: 29900₸ | Количество человек: до 20</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Дневной" data-duration="4">
                 Забронировать
             </button>
@@ -230,7 +230,7 @@
         <div class="mb-4">
             <h4>Большой праздник</h4>
             <p>Описание тарифа: Караоке, предварительно подготовленный фильм на выбор, коллекция настольных игр, XBOX/PS5, безлимитные печеньки и горячие напитки в главном зале, 2 пиццы 40 см, праздничное оформление с шариками, торт с именем именинника.</p>
-            <p>Продолжительность: 8 часа | Цена: 47900</p>
+            <p>Продолжительность: 8 часа | Цена: 47900₸</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Большой праздник" data-duration="4">
                 Забронировать
             </button>
@@ -386,7 +386,7 @@
             const price = parseInt(input.getAttribute('data-price')) || 0; // Парсим цену, если "Бесплатно", то будет 0
             total += price;
         });
-        document.getElementById('totalPrice').value = total + "₽"; // Предполагая, что вы используете рубли
+        document.getElementById('totalPrice').value = total + "₸"; // Предполагая, что вы используете рубли
     }
 </script>
 
