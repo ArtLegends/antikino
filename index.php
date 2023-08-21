@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Антикино</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
@@ -63,8 +63,8 @@
 
     <!-- Блок 3 -->
     <div class="row mb-4">
+      <h4>С нами вы не соскучитесь</h4>
       <div class="col-md-6">
-        <h4>С нами вы не соскучитесь</h4>
         <ul>
           <li>Залы с кинотеатрами (2-30 человек)</li>
           <li>Залы с караоке (шумоизоляция)</li>

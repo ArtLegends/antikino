@@ -1,57 +1,89 @@
-/* Основные стили для всего сайта (если их еще нет) */
+/* Основные стили */
 body {
     font-family: 'Arial', sans-serif;
-    color: #333; /* Темно-серый цвет для обычного текста */
-    line-height: 1.6; /* Общий интерлиньяж */
+    color: #f4f4f4; /* Светлый цвет для текста */
+    line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #1b1b1b; /* Фон сайта темного цвета для стиля кинотеатра */
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px; /* Отступы слева и справа для внутреннего содержимого */
+    padding: 0 20px;
 }
 
 /* Стили для секции "О нас" */
 #about {
-    background-color: #f9f9f9; /* Легкий серый фон для контраста */
+    background-color: #232323; /* Темный фон */
+    border-top: 3px solid #e74c3c; /* Красная полоса сверху для акцента */
+    border-bottom: 3px solid #e74c3c; /* Красная полоса снизу для акцента */
+    padding: 50px 0; /* Верхний и нижний отступы */
 }
 
 #about h2,
 #about h3,
 #about h4 {
-    color: #2c3e50; /* Немного темнее для заголовков */
-    margin-bottom: 15px; /* Отступ снизу для заголовков */
+    text-align: center; /* Выравнивание по центру */
+    color: #e74c3c; /* Красный акцентный цвет для заголовков */
+    margin-bottom: 25px; /* Увеличиваем отступ снизу для заголовков */
+    position: relative;
+}
+
+#about h2::after, /* Линии под заголовками для декоративного элемента */
+#about h3::after,
+#about h4::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: #e74c3c;
+    margin: 15px auto 0;
 }
 
 #about h2 {
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: bold; /* Увеличиваем жирность шрифта */
 }
 
 #about h3 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #about h4 {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #about p {
-    font-size: 16px; /* Размер шрифта для параграфов */
-    margin-bottom: 20px; /* Отступ снизу для параграфов */
+    font-size: 16px;
+    margin-bottom: 30px; /* Увеличиваем отступ снизу для параграфов */
+    text-align: center; /* Выравнивание текста параграфов по центру */
 }
 
 #about img {
-    max-width: 100%; /* Чтобы изображение было адаптивным */
+    max-width: 100%;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.6); /* Тень для логотипа */
 }
 
 #about ul {
-    list-style-type: disc; /* Для учета, если вы хотите изменить стандартные маркеры списка */
-    padding-left: 40px; /* Отступ слева для списка */
+    list-style-type: none; /* Убираем стандартные маркеры списка */
+    padding-left: 0; /* Убираем стандартный отступ слева */
 }
 
 #about li {
     font-size: 16px;
-    margin-bottom: 10px; /* Отступ между элементами списка */
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 25px; /* Отступ слева, чтобы добавить иконку маркера */
+}
+
+#about li::before { /* Декоративный маркер для списка */
+    content: '\2022'; /* Код для маркера списка */
+    position: absolute;
+    left: 0;
+    color: #e74c3c;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%); /* Выравниваем маркер по центру строки */
 }
