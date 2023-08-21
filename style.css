@@ -1,0 +1,57 @@
+/* Основные стили для всего сайта (если их еще нет) */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Темно-серый цвет для обычного текста */
+    line-height: 1.6; /* Общий интерлиньяж */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Отступы слева и справа для внутреннего содержимого */
+}
+
+/* Стили для секции "О нас" */
+#about {
+    background-color: #f9f9f9; /* Легкий серый фон для контраста */
+}
+
+#about h2,
+#about h3,
+#about h4 {
+    color: #2c3e50; /* Немного темнее для заголовков */
+    margin-bottom: 15px; /* Отступ снизу для заголовков */
+}
+
+#about h2 {
+    font-size: 24px;
+}
+
+#about h3 {
+    font-size: 20px;
+}
+
+#about h4 {
+    font-size: 18px;
+}
+
+#about p {
+    font-size: 16px; /* Размер шрифта для параграфов */
+    margin-bottom: 20px; /* Отступ снизу для параграфов */
+}
+
+#about img {
+    max-width: 100%; /* Чтобы изображение было адаптивным */
+}
+
+#about ul {
+    list-style-type: disc; /* Для учета, если вы хотите изменить стандартные маркеры списка */
+    padding-left: 40px; /* Отступ слева для списка */
+}
+
+#about li {
+    font-size: 16px;
+    margin-bottom: 10px; /* Отступ между элементами списка */
+}
