@@ -122,7 +122,7 @@
             <h4>Возлюбленные</h4>
             <p>Описание тарифа: выбор фильма, безлимитные печеньки и напитки, большой поп-корн, свечи, лепестки роз.</p>
             <p>Информация о тарифе: 3 часа, 14900₸.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Возлюбленные" data-duration="4">
+            <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Возлюбленные" data-duration="4">
                 Забронировать
             </button>
         </div>
@@ -151,7 +151,7 @@
             <h4>Сладкоежки</h4>
             <p>Описание тарифа: выбор фильма, безлимитные печеньки и напитки, большой поп-корн, торт, свечи, лепестки роз.</p>
             <p>Информация о тарифе: 4 часа, 18900₸.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Сладкоежки" data-duration="4">
+            <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Сладкоежки" data-duration="4">
                 Забронировать
             </button>
         </div>
@@ -199,8 +199,8 @@
             </div>
             <h4>Вечное наслаждение</h4>
             <p>Описание тарифа: выбор фильма, безлимитные печеньки и напитки, большой поп-корн, торт, свечи, лепестки роз, бутылка вина J.F. Arriezu, Verdejo.</p>
-            <p>Информация о тарифе: 8 часа, 27900₸.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Вечное наслаждение" data-duration="4">
+            <p>Информация о тарифе: 8 часов, 27900₸.</p>
+            <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Вечное наслаждение" data-duration="4">
                 Забронировать
             </button>
         </div>
@@ -329,7 +329,7 @@
             <h4>Семейный</h4>
             <p>Описание тарифа: Караоке, предварительно подготовленный фильм на выбор, коллекция настольных игр, XBOX/PS5, безлимитные печеньки и горячие напитки в главном зале, пицца 40 см.</p>
             <p>Продолжительность: 4 часа | Цена: 24900₸ | Количество человек: до 10</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Семейный" data-duration="4">
+            <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Семейный" data-duration="4">
                 Забронировать
             </button>
         </div>
@@ -369,8 +369,8 @@
             </div>
             <h4>Дневной</h4>
             <p>Описание тарифа: Караоке, предварительно подготовленный фильм на выбор, коллекция настольных игр, XBOX/PS5, безлимитные печеньки и горячие напитки в главном зале, пицца 40 см.</p>
-            <p>Продолжительность: 6 часа | Цена: 29900₸ | Количество человек: до 20</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Дневной" data-duration="4">
+            <p>Продолжительность: 6 часов | Цена: 29900₸ | Количество человек: до 20</p>
+            <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Дневной" data-duration="4">
                 Забронировать
             </button>
         </div>
@@ -410,8 +410,8 @@
             </div>
             <h4>Большой праздник</h4>
             <p>Описание тарифа: Караоке, предварительно подготовленный фильм на выбор, коллекция настольных игр, XBOX/PS5, безлимитные печеньки и горячие напитки в главном зале, 2 пиццы 40 см, праздничное оформление с шариками, торт с именем именинника.</p>
-            <p>Продолжительность: 8 часа | Цена: 47900₸</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Большой праздник" data-duration="4">
+            <p>Продолжительность: 8 часов | Цена: 47900₸</p>
+            <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Большой праздник" data-duration="4">
                 Забронировать
             </button>
         </div>
