@@ -44,8 +44,7 @@
 			<div class="address-section mb-5">
 				<h3>Наш адрес</h3>
 				<p>
-					<?php echo $address; ?>
-				</p>
+					<?php echo $address; ?> </p>
 			</div>
 			<!-- Блок 3 -->
 			<div class="advantages">
@@ -91,7 +90,7 @@
 				</div>
 				<h4>"Возлюбленные"</h4>
 				<p>Описание тарифа: выбор фильма, безлимитные печеньки и напитки, большой поп-корн, свечи, лепестки роз.</p>
-				<p>Информация о тарифе: 3 часа, 14900₸.</p> <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Вечное наслаждение" data-duration="4" data-price="14900₸">
+				<p>Информация о тарифе: 3 часа, 14900₸.</p> <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Возлюбленные" data-duration="4" data-price="14900₸" data-time="03:00">
     Забронировать
 </button> </div>
 			<!-- Тариф "Сладкоежки" -->
@@ -112,7 +111,7 @@
 				</div>
 				<h4>"Сладкоежки"</h4>
 				<p>Описание тарифа: выбор фильма, безлимитные печеньки и напитки, большой поп-корн, торт, свечи, лепестки роз.</p>
-				<p>Информация о тарифе: 4 часа, 18900₸.</p> <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Вечное наслаждение" data-duration="4" data-price="18900₸">
+				<p>Информация о тарифе: 4 часа, 18900₸.</p> <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Сладкоежки" data-duration="4" data-price="18900₸" data-time="04:00">
     Забронировать
 </button> </div>
 			<!-- Тариф "Вечное наслаждение" -->
@@ -143,7 +142,7 @@
 				</div>
 				<h4>"Вечное наслаждение"</h4>
 				<p>Описание тарифа: выбор фильма, безлимитные печеньки и напитки, большой поп-корн, торт, свечи, лепестки роз, бутылка вина J.F. Arriezu, Verdejo.</p>
-				<p>Информация о тарифе: 8 часов, 27900₸.</p> <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Вечное наслаждение" data-duration="4" data-price="27900₸">
+				<p>Информация о тарифе: 8 часов, 27900₸.</p> <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Вечное наслаждение" data-duration="4" data-price="27900₸" data-time="08:00">
     Забронировать
 </button> </div>
 			<!-- Аналогично добавьте тарифы -->
@@ -212,7 +211,7 @@
 				</div>
 				<h4>"Семейный"</h4>
 				<p>Описание тарифа: Караоке, предварительно подготовленный фильм на выбор, коллекция настольных игр, XBOX/PS5, безлимитные печеньки и горячие напитки в главном зале, пицца 40 см.</p>
-				<p>Продолжительность: 4 часа | Цена: 24900₸ | Количество человек: до 10</p> <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Вечное наслаждение" data-duration="4" data-price="24900₸">
+				<p>Продолжительность: 4 часа | Цена: 24900₸ | Количество человек: до 10</p> <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Семейный" data-duration="4" data-price="24900₸" data-time="04:00">
     Забронировать
 </button> </div>
 			<!-- Дневной -->
@@ -239,7 +238,7 @@
 				</div>
 				<h4>"Дневной"</h4>
 				<p>Описание тарифа: Караоке, предварительно подготовленный фильм на выбор, коллекция настольных игр, XBOX/PS5, безлимитные печеньки и горячие напитки в главном зале, пицца 40 см.</p>
-				<p>Продолжительность: 6 часов | Цена: 29900₸ | Количество человек: до 20</p> <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Вечное наслаждение" data-duration="4" data-price="29900₸">
+				<p>Продолжительность: 6 часов | Цена: 29900₸ | Количество человек: до 20</p> <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Дневной" data-duration="4" data-price="29900₸" data-time="06:00">
     Забронировать
 </button> </div>
 			<!-- Большой праздник -->
@@ -266,7 +265,7 @@
 				</div>
 				<h4>"Большой праздник"</h4>
 				<p>Описание тарифа: Караоке, предварительно подготовленный фильм на выбор, коллекция настольных игр, XBOX/PS5, безлимитные печеньки и горячие напитки в главном зале, 2 пиццы 40 см, праздничное оформление с шариками, торт с именем именинника.</p>
-				<p>Продолжительность: 8 часов | Цена: 47900₸</p> <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Вечное наслаждение" data-duration="4" data-price="47900₸">
+				<p>Продолжительность: 8 часов | Цена: 47900₸</p> <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#bookingModal" data-tariff="Большой праздник" data-duration="4" data-price="47900₸" data-time="08:00">
     Забронировать
 </button> </div>
 			<!-- Аналогично добавьте тарифы "Дневной" и "Большой праздник" -->
@@ -364,41 +363,42 @@
 	<!-- Наш собственный JS-код -->
 	<script>
 	const bookingModal = document.getElementById('bookingModal');
-	
-	bookingModal.addEventListener('show.bs.modal', (event) => {
-	    const button = event.relatedTarget;
-	    const tariff = button.getAttribute('data-tariff');
-	    const duration = button.getAttribute('data-duration');
-	    const tariffPrice = parseInt(button.getAttribute('data-price')) || 0;
-	
-	    document.getElementById('tariffName').textContent = tariff;
-	    document.getElementById('time').value = duration + ":00";
-	
-	    // Сохраняем стоимость тарифа в атрибуте модального окна для дальнейшего использования
-	    bookingModal.setAttribute('data-tariff-price', tariffPrice);
-	
-	    updateTotalPrice(); // Обновить итоговую сумму при открытии модального окна
-	});
-	
-	// Обновить итоговую сумму, когда выбраны/отменены дополнительные услуги
-	document.querySelectorAll('.form-check-input').forEach(input => {
-	    input.addEventListener('change', updateTotalPrice);
-	});
-	
-	function updateTotalPrice() {
-	    let total = 0;
-	
-	    // Получаем стоимость выбранного тарифа
-	    const tariffPrice = parseInt(bookingModal.getAttribute('data-tariff-price')) || 0;
-	    total += tariffPrice;
-	
-	    document.querySelectorAll('.form-check-input:checked').forEach(input => {
-	        const price = parseInt(input.getAttribute('data-price')) || 0;
-	        total += price;
-	    });
-	
-	    document.getElementById('totalPrice').value = total + "₸";
-	}
+
+bookingModal.addEventListener('show.bs.modal', (event) => {
+    const button = event.relatedTarget;
+    const tariff = button.getAttribute('data-tariff');
+    const duration = button.getAttribute('data-duration');
+    const tariffPrice = parseInt(button.getAttribute('data-price')) || 0;
+    const tariffTime = button.getAttribute('data-time') || "0:00";
+
+    document.getElementById('tariffName').textContent = tariff;
+    document.getElementById('time').value = tariffTime + ":00";  // Устанавливаем время тарифа
+
+    // Сохраняем стоимость тарифа в атрибуте модального окна для дальнейшего использования
+    bookingModal.setAttribute('data-tariff-price', tariffPrice);
+
+    updateTotalPrice(); // Обновить итоговую сумму при открытии модального окна
+});
+
+// Обновить итоговую сумму, когда выбраны/отменены дополнительные услуги
+document.querySelectorAll('.form-check-input').forEach(input => {
+    input.addEventListener('change', updateTotalPrice);
+});
+
+function updateTotalPrice() {
+    let total = 0;
+
+    // Получаем стоимость выбранного тарифа
+    const tariffPrice = parseInt(bookingModal.getAttribute('data-tariff-price')) || 0;
+    total += tariffPrice;
+
+    document.querySelectorAll('.form-check-input:checked').forEach(input => {
+        const price = parseInt(input.getAttribute('data-price')) || 0;
+        total += price;
+    });
+
+    document.getElementById('totalPrice').value = total + "₸";
+}
 	</script>
 </body>
 
