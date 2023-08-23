@@ -1,3 +1,41 @@
+<?php
+
+// Подключение к базе данных
+$host = 'localhost';
+$db   = 'antikino';
+$user = 'myroot';
+$pass = 'fdj59FkKFR03l8wh';
+$charset = 'utf8mb4';
+
+$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
+$pdo = new PDO($dsn, $user, $pass);
+
+// Проверяем, есть ли unique_work_id в URL
+if (isset($_GET['id'])) {
+    $unique_work_id = $_GET['id'];
+    // Выполните запрос к базе данных для поиска пользователя с этим ID
+    $stmt = $pdo->prepare("SELECT * FROM users WHERE unique_work_id = ?");
+    $stmt->execute([$unique_work_id]);
+
+    $user = $stmt->fetch();
+
+    // Если пользователь найден, отображаем его страницу
+    if ($user) {
+        $address = $user['adres_antikino'];
+        // Здесь ваш HTML код страницы пользователя
+    } else {
+        // Пользователь не найден
+        echo "Пользователь не найден!";
+        exit;
+    }
+} else {
+    // По умолчанию
+    echo "Доступ запрещен!";
+    exit;
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -326,7 +364,7 @@
 			<h2 class="text-center mb-4">КАК НАС НАЙТИ</h2>
 			<!-- Описание -->
 			<div class="text-center mb-5">
-				<p><strong>Наш адрес:</strong> [адрес]</p>
+                <p><strong>Наш адрес:</strong> <?php echo $address; ?></p>
 				<p><strong>Время работы:</strong> Вс-Чт: с 12:00 до 06:00, Пт-Сб: круглосуточно</p>
 			</div>
 		</div>
