@@ -1,41 +1,3 @@
-<?php
-
-// Подключение к базе данных
-$host = 'localhost';
-$db   = 'antikino';
-$user = 'myroot';
-$pass = 'fdj59FkKFR03l8wh';
-$charset = 'utf8mb4';
-
-$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
-$pdo = new PDO($dsn, $user, $pass);
-
-// Проверяем, есть ли unique_work_id в URL
-if (isset($_GET['id'])) {
-    $unique_work_id = $_GET['id'];
-    // Выполните запрос к базе данных для поиска пользователя с этим ID
-    $stmt = $pdo->prepare("SELECT * FROM users WHERE unique_work_id = ?");
-    $stmt->execute([$unique_work_id]);
-
-    $user = $stmt->fetch();
-
-    // Если пользователь найден, отображаем его страницу
-    if ($user) {
-        $address = $user['adres_antikino'];
-        // Здесь ваш HTML код страницы пользователя
-    } else {
-        // Пользователь не найден
-        echo "Пользователь не найден!";
-        exit;
-    }
-} else {
-    // По умолчанию
-    echo "Доступ запрещен!";
-    exit;
-}
-?>
-
-
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -54,24 +16,24 @@ if (isset($_GET['id'])) {
       </span>
    </b> </marquee>
 	<!-- Навигационная панель -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<div class="container-fluid"> <a class="navbar-brand" href="#">KINO MIR</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item"> <a class="nav-link" href="#about">О нас</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="#forTwo">Для двоих</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="#forCompanies">Для компании</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="#faq">FAQ</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="#contacts">Контакты</a> </li>
-					<!-- Добавьте другие пункты меню здесь -->
-				</ul>
-			</div>
-		</div>
-	</nav>
 	<!-- Секция "О нас" -->
 	<section id="about" class="py-5">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid"> <a class="navbar-brand" href="#">KINO MIR</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item"> <a class="nav-link" href="#about">О нас</a> </li>
+						<li class="nav-item"> <a class="nav-link" href="#forTwo">Для двоих</a> </li>
+						<li class="nav-item"> <a class="nav-link" href="#forCompanies">Для компании</a> </li>
+						<li class="nav-item"> <a class="nav-link" href="#faq">FAQ</a> </li>
+						<li class="nav-item"> <a class="nav-link" href="#contacts">Контакты</a> </li>
+						<!-- Добавьте другие пункты меню здесь -->
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<div class="container">
 			<!-- Блок 1 -->
 			<div class="intro-section text-center mb-4">
@@ -364,7 +326,7 @@ if (isset($_GET['id'])) {
 			<h2 class="text-center mb-4">КАК НАС НАЙТИ</h2>
 			<!-- Описание -->
 			<div class="text-center mb-5">
-                <p><strong>Наш адрес:</strong> <?php echo $address; ?></p>
+				<p><strong>Наш адрес:</strong> [адрес]</p>
 				<p><strong>Время работы:</strong> Вс-Чт: с 12:00 до 06:00, Пт-Сб: круглосуточно</p>
 			</div>
 		</div>
