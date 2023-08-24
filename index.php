@@ -157,9 +157,9 @@
 				<div class="modal-body">
 					<form id="bookingForm">
 						<div class="mb-3"> <label for="name" class="form-label">Ф.И.О</label> <input type="text" class="form-control" id="name" required> </div>
-						<div class="mb-3"> <label for="phone" class="form-label">Контактный номер телефона</label> <input type="tel" class="form-control" id="phone" required> </div>
-						<div class="mb-3"> <label for="date" class="form-label">Дата сеанса</label> <input type="date" class="form-control" id="date" required> </div>
-						<div class="mb-3"> <label for="time" class="form-label">Время сеанса</label> <input type="time" class="form-control" id="time" required readonly> </div>
+						<div class="mb-3"> <label for="phone" class="form-label">Контактный номер телефона</label> <input type="tel" class="form-control" id="phone" pattern="^\d{11}$" placeholder="89001234567" required maxlength="11"> </div>
+						<div class="mb-3"> <label for="date" class="form-label">Дата сеанса</label> <input type="date" class="form-control" id="date" required> <small class="form-text text-muted"></small> </div>
+						<div class="mb-3"> <label for="time" class="form-label">Время сеанса</label> <input type="time" class="form-control" id="time" required min="01:00" max="00:00"> </div>
 						<!-- Дополнительные услуги -->
 						<h6>Дополнительные услуги:</h6>
 						<div class="mb-3 form-check"> <input type="checkbox" class="form-check-input" id="hookah" data-price="6000₸"> <label class="form-check-label" for="hookah">Кальян (6000₸)</label> </div>
@@ -399,6 +399,22 @@ function updateTotalPrice() {
 
     document.getElementById('totalPrice').value = total + "₸";
 }
+
+    document.addEventListener('DOMContentLoaded', function() {
+    // Получаем элемент модального окна по его ID
+    const bookingModal = document.getElementById('bookingModal');
+    
+    bookingModal.addEventListener('show.bs.modal', function() {
+        // Получаем текущую дату
+        const currentDate = new Date();
+        
+        // Преобразуем дату в формат YYYY-MM-DD
+        const formattedDate = currentDate.toISOString().slice(0, 10);
+        
+        // Устанавливаем эту дату в качестве минимальной для поля даты
+        document.getElementById('date').min = formattedDate;
+    });
+});
 	</script>
 </body>
 
